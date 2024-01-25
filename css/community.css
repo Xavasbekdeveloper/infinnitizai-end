@@ -1,0 +1,141 @@
+#community {
+    padding: 125px 0;
+    background-image: url(../images/comunity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.community__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.community__title {
+    max-width: 746px;
+    color: #141820;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px; /* 113.889% */
+}
+
+.community__text {
+    max-width: 846px;
+    color: #555;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+}
+
+.community__input__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5px;
+}
+
+.community__input {
+    padding: 21px 226px 21px 13px;
+    border: none;
+    color: #555;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+}
+
+.community__btn {
+    cursor: pointer;
+    padding: 20px 8px;
+    border: 1px solid #57B8FF;
+    background-color: #57B8FF;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    transition: all 0.5s ease-in-out;
+}
+
+.community__btn:hover {
+    background-color: transparent;
+    color: #57B8FF;
+}
+
+
+@media (max-width: 900px) {
+    .community__title {
+        max-width: 646px;
+        font-size: 50px;
+    }
+
+    .community__text {
+        max-width: 746px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 725px) {
+    .community__text {
+        max-width: 546px;
+        line-height: 20px;
+    }
+
+    .community__input__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+    .community__title {
+        font-size: 38px;
+    }
+
+    .community__text {
+        max-width: 446px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 535px) {
+    .community__input {
+        padding: 18px 130px 18px 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .community__btn {
+        padding: 18px 6px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 415px) {
+    .community__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .community__text {
+        
+        font-size: 8px;
+    }
+    .community__input {
+        padding: 18px 50px 18px 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .community__btn {
+        padding: 18px 6px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

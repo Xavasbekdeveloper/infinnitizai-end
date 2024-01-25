@@ -1,0 +1,148 @@
+
+/* light mode */
+
+/* header */
+
+.light #navbar {
+    background-image: linear-gradient(#fff , #fff);
+}
+
+.light .navbar-shrink {
+    background-image: linear-gradient(#fff, #fff) !important;
+}
+
+.light .nav__list {
+    background-color: #fff;
+}
+
+.light .nav__link {
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.light .nav__link:hover {
+    color: #FAC422;
+}
+
+.light .contact__btn {
+    border-color: #000;
+    color: #000;
+}
+
+.light .contact__btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.light .nav__language {
+    color: #000;
+}
+
+
+@media (max-width: 1020px) {
+    .light .nav__list {
+        background-color: #191919;
+    }
+    
+    .light .nav__link {
+        color: #fff;
+    }
+    
+}
+
+/* hero */
+
+.light #hero {
+    background-image: linear-gradient(#fff, #fff);
+    color: #000;
+}
+
+.light .hero__title {
+    color: #000;
+}
+
+.light .team__btn {
+    color: #57B8FF;
+}
+
+.light .team__btn:hover {
+    color: #fff;
+}
+
+/* sponsor */
+
+.light #sponsor {
+    background-color: #57B8FF;
+}
+
+.light .sponsor__title, .sponsor__text {
+    color: #fff;
+}
+
+
+
+/* shop */
+
+.light #shop {
+    background-image: none;
+    background-color: #fff;
+}
+
+.light .shop__title {
+    color: #000;
+}
+
+.light .shop__text {
+    color: #5e5e5e;
+}
+
+.light .shop__card {
+    background-color: #999;
+}
+
+/* gaming */ 
+
+.light #gaming {
+    background-color: #fff;
+}
+
+.light .gaming__title {
+    color: #000;
+}
+
+.light .gaming__text {
+    color: #000;
+}
+
+/* news */
+
+.light #news {
+    background-color: #fff;
+}
+
+.light .news__title {
+    color: #000;
+}
+
+.light .news__bottom__left__title {
+    color: #000;
+}
+
+.light .news__bottom__card__title {
+    color: #000;
+}
+
+/* community */
+
+
+.light #community {
+    background-image: none;
+}
+
+.light .community__title {
+    color: #000;
+}
+
+.light .community__input {
+    background-color: #191919
+}

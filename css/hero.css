@@ -1,0 +1,127 @@
+/* hero */
+
+ #hero {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, rgb(36, 39, 47) 0% 50%, #57B8FF 50% 100%);
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+}
+
+.hero__top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.hero__top__title {
+    color: #57B8FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+.hero__title {
+    color: #FFF;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86px; /* 119.444% */
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.hero__text {
+    color: #999;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 40px;
+}
+
+.hero__btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.more__btn {
+    cursor: pointer;
+    padding: 16px 24px;
+    border: 1px solid #57B8FF;
+    background-color: #57B8FF;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+
+.more__btn:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color:  #57B8FF;
+}
+
+.team__btn {
+    padding: 16px 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    transition: all 0.5s ease-in-out;
+}
+
+.team__btn:hover {
+    background-color: #57B8FF;
+}
+
+
+
+.hero__right__img {
+    max-width: 520px;
+}
+
+
+@media (max-width: 1150px) {
+    .hero__right {
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 700px) {
+    .hero__title {
+        font-size: 45px;
+    }
+
+    .hero__text {
+        font-size: 11px;
+    }
+
+    .hero__btns {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .more__btn, .team__btn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,68 @@
+#sponsor {
+    padding: 120px 0;
+    background-color: #FDD04A;
+}
+
+.sponsor__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    text-align: center;
+}
+
+.sponsor__title {
+    color: #222730;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 120.833% */
+    text-transform: capitalize;
+}
+
+.sponsor__text {
+    max-width: 576px;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.sponsor__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.sponsor__card img {
+    width: 160px;
+}
+
+/* responsive */
+
+@media (max-width: 570px) {
+    .sponsor__title {
+        font-size: 38px;
+    }
+    
+    .sponsor__text {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 345px) {
+    .sponsor__title {
+        font-size: 34px;
+    }
+    
+    .sponsor__text {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+}
